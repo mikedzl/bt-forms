@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+#header > .header-layout {
+    background-color: #f8f8f8;
+    background-image: none !important;
+}
+.header-layout .header-nav a, .header-layout .header-nav a:hover {
+    color: #428bca !important;
+}
+.logo img {
+    display:none;
+}
+.logo {
+    width: 134px; height: 48px;
+    background: url("http://xgeneration.net/sites/default/files/logo.png");
+    text-indent: -9999px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Indie Flower', cursive !important;
+}
+#content-background {
+    background: #c0c0c0;
+}
+#site-footer {
+    background: #d4d4d4 !important;
+}
+.flex-front {
+    display:block !important;
+}
+.flex-boxes .flex-box {
+    border-top: 6px solid #428bca !important;
+}
+.flex-content:after {
+    content: "Sample content in notification area. You can include a notification here about the survey or additional information as needed. This region is hidden by default and enabled by setting flex-front display:block !important as an override then using the css content tag to set this message in flex-content:after";
+}
